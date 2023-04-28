@@ -1,0 +1,10 @@
+name: manually run workflow
+on: workflow_dispatch
+jobs:
+  multi-line:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first multi line
+        run: !
+          echo: "first line"
+          echo: "second line"
