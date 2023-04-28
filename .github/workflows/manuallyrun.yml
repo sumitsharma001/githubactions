@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: first multi line
-        run: !
+        run: |
           echo: "first line"
           echo: "second line"
