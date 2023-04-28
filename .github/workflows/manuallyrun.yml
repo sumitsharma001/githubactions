@@ -1,10 +1,11 @@
-name: manually run workflow
+name: mulitline workflow
 on: workflow_dispatch
 jobs:
-  multi-line:
+  first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: first multi line
+      - name: mulitline
         run: |
-          echo "first line"
+          echo "firstline"
           echo "second line"
+          echo "thrid line"
